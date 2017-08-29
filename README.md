@@ -41,7 +41,7 @@ also written in Golang.
 
 This mongo instance will hold data in the following format:
 
-```json
+```text
 [
 {
     id: []string //unique ID
