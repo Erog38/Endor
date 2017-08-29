@@ -12,7 +12,7 @@ It consists of three parts:
 The backend has two pieces to it, the client, to be run on the systems
 to be monitored, and the database, which will exist in a centralized location.
 
-###Client
+### Client
 
 A Golang client to be run on each system being monitored, it will collect 
 the following data:
@@ -42,6 +42,7 @@ also written in Golang.
 This mongo instance will hold data in the following format:
 
 ```json
+[
 {
     id: []string //unique ID
     hostname: string
@@ -64,9 +65,10 @@ This mongo instance will hold data in the following format:
         processes: []string //numProcesses
     }
 }
+]
 ```
 
-##Frontend
+## Frontend
 
 In front of all of this, I will have a React front end, using Redux 
 as a data store, and ChartsJS for viewing data.
