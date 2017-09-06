@@ -15,7 +15,7 @@ Using flat files, and a network connected file share, this server will hold
 a queue of file handlers with one song being played, and one being loaded into
 a buffer.
 
-Specifics:
+### Specifics:
 
 * Built in golang libraries for file management
 * FFmepg bindings for streaming
@@ -30,14 +30,14 @@ music from the server.
 The stream should also be available from an industry standard player, such as
 VLC, iTunes, Winamp, etc.
 
-Specifics:
+### Specifics:
 
 * Website using Echo, a Golang web framework
 * HTML web player
 * Basic Authentication for admin and management pages.
 * Certs provided by LetsEncrypt and auto renewed through by certbot. 
 
-##Stretch Goals:
+## Stretch Goals:
 
 * Impliment OAuth through Google instead of basic HTTP authentication
 * Allow file upload through the management interface
