@@ -5,21 +5,23 @@ and those who appreciate the genre which will be played, and which hasn't
 been decided yet. I'll be pulling music from legal sources which have been
 licensed for public use.
 
-The idea behind this is to build a full stack service using only Golang and 
-C bindings, including the streaming service, data management, and web 
-fronend.
+The idea behind this is to build a full stack service using React, golang,
+and C bindings to the FFmpeg library
 
 ## Backend
 
-Using the API from the Free Music Archive, I will create a frontend to search 
-and browse through the music provided under the Creative Commons license, and 
-let songs be added to a queue as requested.
+The Free Music Archive (FMA) provides a REST API to gather song information
+and download them from their servers. 
 
-### Specifics:
+The Go backend will have two major functions:
 
-* Built in golang libraries for file management
-* FFmepg bindings for streaming
-https://github.com/giorgisio/goav 
+* Gather track data from FMA  and serve it to the front end via a local sqlite
+  database.
+* Stream audio via FFmpeg bindings.
+  https://github.com/giorgisio/goav 
+
+The stream should also be available from an industry standard player, such as
+VLC, iTunes, Winamp, etc.
 
 ## Frontend
 
@@ -27,12 +29,16 @@ The frontend for this project should consist of a featured website, including
 song request out of a preselected library, and a webclient which can play
 music from the server. 
 
-The stream should also be available from an industry standard player, such as
-VLC, iTunes, Winamp, etc.
+This will be built using React, with sqlite bindings to pull information from
+the database provided by the backend. 
+
+When a user selects a song, the frontend adds that track to a table in the 
+database for the backend to add it to the queue.
+
 
 ### Specifics:
 
-* Website using Echo, a Golang web framework
+* Website using React
 * HTML web player
 * Basic Authentication for admin and management pages.
 * Certs provided by LetsEncrypt and auto renewed through by certbot. 
