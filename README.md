@@ -23,24 +23,30 @@ The Go backend will have two major functions:
 The stream should also be available from an industry standard player, such as
 VLC, iTunes, Winamp, etc.
 
+__The backend will have a seperate git repository for simplicity to be linked
+here soon__
+
 ## Frontend
 
 The frontend for this project should consist of a featured website, including
 song request out of a preselected library, and a webclient which can play
 music from the server. 
 
-This will be built using React, with sqlite bindings to pull information from
-the database provided by the backend. 
+This will be built using React, with simple REST API calls to pull information
+from the backend.
 
 When a user selects a song, the frontend adds that track to a table in the 
 database for the backend to add it to the queue.
 
+__The fontend will have a seperate git repository for simplicity to be linked
+here soon__
 
 ### Specifics:
 
 * Website using React
 * HTML web player
 * Basic Authentication for admin and management pages.
+* REST API for backend communication.
 * Certs provided by LetsEncrypt and auto renewed through by certbot. 
 
 ## Stretch Goals:
