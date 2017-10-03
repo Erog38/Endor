@@ -38,8 +38,7 @@ from the backend.
 When a user selects a song, the frontend adds that track to a table in the 
 database for the backend to add it to the queue.
 
-__The fontend will have a seperate git repository for simplicity to be linked
-here soon__
+__The fontend repo can be found [here](https://github.com/Erog38/Voyager)__
 
 ### Specifics:
 
