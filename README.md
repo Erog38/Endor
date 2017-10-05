@@ -1,3 +1,11 @@
+# Progress:
+
+Front end has started and can be viewed at
+[https://voyager.philgore.net](https://voyager.philgore.net)
+
+The front end repo can also be found 
+[here](https://github.com/Erog38/Voyager)
+
 ## Internet Radio Streaming in Golang
 
 This will be a streaming server using ffmpeg to target the general public, 
