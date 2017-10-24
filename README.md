@@ -6,6 +6,10 @@ Front end has started and can be viewed at
 The front end repo can also be found 
 [here](https://github.com/Erog38/Voyager)
 
+## Backend development has begun!
+
+[Voyager Electronic Radio](http://streaming.shoutcast.com/VoyagerElectronicRadio)
+
 ## Internet Radio Streaming in Golang
 
 This will be a streaming server using ffmpeg to target the general public, 
@@ -17,6 +21,14 @@ The idea behind this is to build a full stack service using React, golang,
 and C bindings to the FFmpeg library
 
 ## Backend
+
+The Backend has evolved somewhat to rely on shoutcast with goicy as the 
+interface, the stream can be accessed via VLC at 
+
+[Voyager Electronic Radio](http://streaming.shoutcast.com/VoyagerElectronicRadio)
+
+The music is currently provided by NCS, and the entire station is in it's first 
+baby steps.
 
 The Free Music Archive (FMA) provides a REST API to gather song information
 and download them from their servers. 
