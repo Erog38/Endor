@@ -12,14 +12,15 @@ Open the following link in VLC to access the stream:
 
 [Voyager Electronic Radio](http://streaming.shoutcast.com/VoyagerElectronicRadio)
 
-OR Paste the following code somewhere which supports it: (Github does not)
+OR 
 
-```
-<audio controls>
-  <source src="http://streaming.shoutcast.com/VoyagerElectronicRadio" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-```
+Simply go to the front end for the project:
+
+[https://voyager.philgore.net](https://voyager.philgore.net)
+
+An HTML5 audio tag has been used to set a temporary place to reach the stream in
+the top right.
+
 
 ## Internet Radio Streaming in Golang
 
