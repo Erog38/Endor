@@ -10,6 +10,11 @@ The front end repo can also be found
 
 [Voyager Electronic Radio](http://streaming.shoutcast.com/VoyagerElectronicRadio)
 
+<audio controls>
+  <source src="http://streaming.shoutcast.com/VoyagerElectronicRadio" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ## Internet Radio Streaming in Golang
 
 This will be a streaming server using ffmpeg to target the general public, 
