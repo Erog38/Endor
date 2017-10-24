@@ -8,12 +8,18 @@ The front end repo can also be found
 
 ## Backend development has begun!
 
+Open the following link in VLC to access the stream:
+
 [Voyager Electronic Radio](http://streaming.shoutcast.com/VoyagerElectronicRadio)
 
+OR Paste the following code somewhere which supports it: (Github does not)
+
+```
 <audio controls>
   <source src="http://streaming.shoutcast.com/VoyagerElectronicRadio" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+```
 
 ## Internet Radio Streaming in Golang
 
