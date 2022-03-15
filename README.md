@@ -1,3 +1,8 @@
+# *ENDOR WAS TAKEN BY THE EMPIRE*
+
+This project has been dead for a little while now, but is archived for later reference.
+
+
 # Progress:
 
 Front end has started and can be viewed at
